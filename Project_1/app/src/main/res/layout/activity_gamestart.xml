@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/top_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Math Game"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_below="@+id/top_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome to our engaging Math Quiz Game, where fun meets learning! This multiplayer game is designed for two players, creating a lively and interactive experience. Players embark on a mathematical journey involving addition, subtraction, and multiplication questions, adding an educational twist to the gaming excitement.\n\nTo spice things up, the game introduces a unique element – the roll of the dice. The dice determine the type of question and add an element of unpredictability to the gameplay. As the dice roll, the players face a variety of math challenges, keeping them on their toes and encouraging quick thinking."
+        android:textColor="#acacac"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/start_game_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Start Game"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>
